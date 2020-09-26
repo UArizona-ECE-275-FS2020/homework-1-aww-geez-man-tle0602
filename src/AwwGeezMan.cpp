@@ -66,17 +66,17 @@ int main(int ac, char** av) {
 	std::cout << "Morty " << dimension << " says:" << std::endl;
 	if (dimension == "C137") {
 		if (step != 1) {
-			C137::morty(start, stop, step);
+			C137::Morty(start, stop, step);
 		}
 		else
-			C137::morty(start, stop);
+			C137::Morty(start, stop);
 	}
 	if (dimension == "Z286") {
 		if (step != 1) {
-			Z286::morty(start, stop, step);
+			Z286::Morty(start, stop, step);
 		}
 		else
-			Z286::morty(start, stop);
+			Z286::Morty(start, stop);
 	}
 	
 	

@@ -14,12 +14,12 @@
 
 // =========================================================================== // 
 //          Define functions enclosed in Namespace C137 here 
-	void C137::morty(int a, int b)
+	void C137::Morty(int a, int b)
 	{
-		C137::morty(a, b, 1);
+		C137::Morty(a, b, 1);
 	}
 
-	void C137::morty(int a, int b, int c)
+	void C137::Morty(int a, int b, int c)
 	{
 		for (int i = a; i <= b; i += c) {
 			if (i % 15 == 0)
@@ -38,12 +38,12 @@
 //          Define functions enclosed in Namespace Z286 here 
 
 
-	void Z286::morty(int a, int b)
+	void Z286::Morty(int a, int b)
 	{
-		Z286::morty(a, b, 1);
+		Z286::Morty(a, b, 1);
 	}
 
-	void Z286::morty(int a, int b, int c)
+	void Z286::Morty(int a, int b, int c)
 	{
 		for (int i = a; i <= b; i += c) {
 			if (i % 15 == 0)

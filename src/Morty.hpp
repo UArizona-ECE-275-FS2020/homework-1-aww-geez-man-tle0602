@@ -33,8 +33,8 @@ namespace interdimensional {
 // =========================================================================== // 
 //          Declare Namespace C137 and enclosed functions here 
 namespace C137 {
-	void morty(int a, int b);
-	void morty(int a, int b, int c);
+	void Morty(int a, int b);
+	void Morty(int a, int b, int c);
 }
 // =========================================================================== // 
 
@@ -43,7 +43,7 @@ namespace C137 {
 // =========================================================================== // 
 //          Declare Namespace Z286 and enclosed functions here 
 namespace Z286 {
-	void morty(int a, int b);
-	void morty(int a, int b, int c);
+	void Morty(int a, int b);
+	void Morty(int a, int b, int c);
 }
 // =========================================================================== // 
