@@ -63,6 +63,7 @@ int main(int ac, char** av) {
 	// Parse the command line arguments
 	// Depending on the dimension of the arguments, call the appropriate Morty
 	// function
+	std::cout << "Morty " << dimension << " says:" << std::endl;
 	if (dimension == "C137") {
 		if (step != 1) {
 			C137::morty(start, stop, step);
